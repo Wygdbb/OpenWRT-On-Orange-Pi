@@ -10,7 +10,9 @@
   - [树莓派 2B-4](https://mlapp.cn/369.html)
   
 ```
-  
+- 由于Github下载比较慢，所以请移步到：https://gitee.com/wygdbb/OpenWRT-For-Pi （同步更新）
+
+
 - 完整的编译步骤：
 ```
 # 编译环境Ubuntu19.04
