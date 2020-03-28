@@ -1,16 +1,111 @@
+![NanoPi NEO2](https://images.gitee.com/uploads/images/2020/0328/215207_b2c5a598_6514114.png "OpenWRT.png")
+
+#### 介绍：
+为NanoPi、OrangePi、Banana Pi、PINE64编译定制的OpenWRT固件
+
+- 同步更新：https://github.com/Wygdbb/OpenWRT-For-Pi【主】
+- 由于Github下载比较慢，所以请移步到：https://gitee.com/wygdbb/OpenWRT-For-Pi （同步更新）
+
+#### 安装教程：
+
+```
+Windows: win32diskimager
+Linux:   sudo dd bs=4M if=openwrt.xxx.img of=/dev/sdb
 ```
 
-- 支持设备
-  - Nano Pi NEO2 （512M）
-  - OrangePi Zero 
-  - OrangePi PC 
-  - OrangePi r1
-  
-（使用别人固件）
-  - [树莓派 2B-4](https://mlapp.cn/369.html)
-  
+#### 使用说明：
 ```
-- 由于Github下载比较慢，所以请移步到：https://gitee.com/wygdbb/OpenWRT-For-Pi （同步更新）
+1. 默认Web管理地址： 192.168.1.1
+2. root/password
+3. 内存卡 > 512m 
+```
+#### 支持的型号：
+```
+不提供树莓派支持！！！
+
+Allwinner A64
+[x] NanoPi NEO2
+[x] NanoPi NEO Plus2
+[x] Pine64 Plus
+[x] Pine64 Sopine baseboard
+[x] OrangePi PC2
+[x] OrangePi Zero Plus
+
+Allwinner A20/A3x/R40
+[x] OrangePi ONE
+[x] OrangePi Zero
+[x] OrangePi PC
+[x] OrangePi PC Plus
+[x] BananaPi
+[x] BananaPi Pro
+[x] BananaPi-m2-ultra
+[x] bananaPi-m2-plus
+[x] NanoPi-neo
+[x] Cubieboard2
+```
+
+
+#### 添加的插件：
+
+```
+
+|--系统
+    |---TTYD终端
+    |---Web管理
+|--服务
+    |---广告屏蔽大师 Plus+
+    |---ShadowSocksR Plus+
+    |---上网时间控制
+    |---解锁网易云音乐[Go/Nodejs]
+    |---动态DNS[DDNS]
+    |---网络唤醒[Wol]
+    |---Shairplay
+    |---cpufreq
+    |---Upnp
+    |---Dnsforwarder
+    |---FRP内网穿透
+    |---网络共享[SMB4]
+    |---KMS服务器
+|--网络储存
+    |---USB打印服务器
+    |---硬盘休眠
+    |---FTP服务器
+|--VPN
+    |---ZeroTier
+|--网络
+    |---Turbo ACC网络加速
+|--带宽监控
+
+```
+
+#### 特点说明：
+###### 全部固件均支持ipv6
+```
+1.文件系统支持
+    - udf [macOS/Linux/Windows 都支持读写，DVD格式，怎么格式化U盘为udf：https://github.com/JElchison/format-udf]
+    - ntfs
+    - squashfs
+    - vfat [默认]
+    - ext4 [默认]
+    - exfat [默认]
+
+2. USB2/3支持[未添加SMB自动挂载]
+3. 添加的工具
+    - nano
+    - curl
+    - htop
+    - screen
+    - vim-fuller
+    - lsblk
+    - wget
+4. 多主题
+    - argon
+    - argon-dark-mod
+    - argon-light-mod
+    - material
+    - netgear
+5. USB无线网卡需要自己手动添加驱动
+```
 
 
 - 完整的编译步骤：
