@@ -1,3 +1,7 @@
+##### 儿童节定制版NEO2轻NAS固件已经发布啦
+https://github.com/Wygdbb/OpenWRT-For-Pi/releases/tag/v0.4.1
+
+
 ![NanoPi NEO2](https://images.gitee.com/uploads/images/2020/0328/215207_b2c5a598_6514114.png "OpenWRT.png")
 
 #### 介绍：
