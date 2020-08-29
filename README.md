@@ -1,3 +1,9 @@
+##### NanoPi NEO2 大乱交  ---> 真的很强
+https://github.com/Wygdbb/OpenWRT-For-Pi/releases/tag/v0.4.2
+
+![nanopineo2](https://gitee.com/wygdbb/blog-image/raw/master/img/opgongneng.png)
+
+
 ##### 儿童节定制版NEO2轻NAS固件已经发布啦
 https://github.com/Wygdbb/OpenWRT-For-Pi/releases/tag/v0.4.1
 
