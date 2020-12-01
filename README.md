@@ -49,6 +49,7 @@ Linux:   sudo dd bs=4M if=openwrt.xxx.img of=/dev/sdb
 
 #### 支持的型号：
 
+
 **相比之前提供编译的Pi型号增多**
 ```
 不提供树莓派支持！！！
