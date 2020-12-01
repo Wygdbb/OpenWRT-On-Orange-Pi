@@ -12,6 +12,15 @@
     - exfat [默认]
 
 2. USB2/3支持[未添加SMB自动挂载]
+    - 增加qmi支持，可以做4g路由
+    - kmod-usb-core
+    - kmod-usb-net
+    - kmod-usb-net-qmi-wwan
+    - kmod-ohci
+    - kmod-usb-serial-option
+    - kmod-usb2
+    - kmod-usb3
+    - kmod-uhci
 3. 添加的工具
     - nano
     - curl
