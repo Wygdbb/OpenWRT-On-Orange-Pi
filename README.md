@@ -13,17 +13,21 @@
 - [编译时选择插件列表说明](explain/luciapp.md)
 - [发行说明](#发行说明)
 
+最新固件地址；https://github.com/Wygdbb/OpenWRT-For-Pi/releases
+
+#### 过时固件，建议下载烧录最新固件（最新固件基于Lienol）
+```
 ##### 已经编译的多版本固件（不提供树莓派支持）
 https://github.com/Wygdbb/OpenWRT-For-Pi/releases/tag/v0.4
 
 ##### NanoPi NEO2 大乱交  ---> 真的很强
 https://github.com/Wygdbb/OpenWRT-For-Pi/releases/tag/v0.4.2
 
-![nanopineo2](https://gitee.com/wygdbb/blog-image/raw/master/img/opgongneng.png)
-
-
 ##### 儿童节定制版NEO2轻NAS固件已经发布啦
 https://github.com/Wygdbb/OpenWRT-For-Pi/releases/tag/v0.4.1
+```
+
+![nanopineo2](https://gitee.com/wygdbb/blog-image/raw/master/img/opgongneng.png)
 
 ![NanoPi NEO2](https://images.gitee.com/uploads/images/2020/0328/215207_b2c5a598_6514114.png "OpenWRT.png")
 
