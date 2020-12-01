@@ -112,7 +112,6 @@ luci-app-nps
 luci-app-ntpc
 luci-app-pagekitec
 *** luci-app-passwall[ss/ssr/xray/v2ray/Trojan_Plus/Trojan_GO/Brook/NaiveProxy/kcptun/haproxy/ChinaDNS-NGHttps DNS Proxy(DoH)/dns2socks
-luci-app-qbittorrent
 luci-app-ramfree
 luci-app-samba4
 luci-app-sfe
