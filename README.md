@@ -2,7 +2,10 @@
 
 为NanoPi、OrangePi、Banana Pi、PINE64编译定制的OpenWRT固件
 
-安装过程
+
+- [测试](#测试)
+
+- [安装过程](#安装过程)
 使用说明
 提供Pi的型号有：
 添加的插件
