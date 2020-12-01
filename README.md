@@ -5,11 +5,12 @@
 
 - [安装过程](#安装过程)
 - [使用说明](#使用说明)
-- [提供Pi的型号有：}(#提供Pi的型号有：)
+- [提供Pi的型号有:](#支持的型号：)
 - [添加的插件](#添加的插件)
 - [本OpenWRT特性](explain/support.md)
 - [大致编译过程](explain/compile.md)
 - [编译时选择插件列表说明](explain/luciapp.md)
+- [发行时间](#发行时间)
 
 ##### 已经编译的多版本固件（不提供树莓派支持）
 https://github.com/Wygdbb/OpenWRT-For-Pi/releases/tag/v0.4
@@ -22,7 +23,6 @@ https://github.com/Wygdbb/OpenWRT-For-Pi/releases/tag/v0.4.2
 
 ##### 儿童节定制版NEO2轻NAS固件已经发布啦
 https://github.com/Wygdbb/OpenWRT-For-Pi/releases/tag/v0.4.1
-
 
 ![NanoPi NEO2](https://images.gitee.com/uploads/images/2020/0328/215207_b2c5a598_6514114.png "OpenWRT.png")
 
@@ -98,5 +98,11 @@ Allwinner A20/A3x/R40
 |--网络
     |---Turbo ACC网络加速
 |--带宽监控
+
+```
+#### 发行时间
+
+```
+ - 2020.12.01 目前提供多版本固件支持，之后不久会做一次全面的重新编译调整，可能会取消H2芯片固件的编译，需要的请去 多版本 中下载
 
 ```
