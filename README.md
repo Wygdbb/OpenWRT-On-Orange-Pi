@@ -1,3 +1,10 @@
+#### 介绍：
+为NanoPi、OrangePi、Banana Pi、PINE64编译定制的OpenWRT固件
+[大致编译过程](explain/compile.md)
+
+##### 已经编译的多版本固件（不提供树莓派支持）
+https://github.com/Wygdbb/OpenWRT-For-Pi/releases/tag/v0.4
+
 ##### NanoPi NEO2 大乱交  ---> 真的很强
 https://github.com/Wygdbb/OpenWRT-For-Pi/releases/tag/v0.4.2
 
@@ -10,11 +17,7 @@ https://github.com/Wygdbb/OpenWRT-For-Pi/releases/tag/v0.4.1
 
 ![NanoPi NEO2](https://images.gitee.com/uploads/images/2020/0328/215207_b2c5a598_6514114.png "OpenWRT.png")
 
-#### 介绍：
-为NanoPi、OrangePi、Banana Pi、PINE64编译定制的OpenWRT固件
 
-- 同步更新：https://github.com/Wygdbb/OpenWRT-For-Pi【主】
-- 由于Github下载比较慢，所以请移步到：https://gitee.com/wygdbb/OpenWRT-For-Pi （同步更新）
 
 #### 安装教程：
 
@@ -88,75 +91,10 @@ Allwinner A20/A3x/R40
 
 ```
 
-#### 特点说明：
-###### 全部固件均支持ipv6
-```
-1.文件系统支持
-    - udf [macOS/Linux/Windows 都支持读写，DVD格式，怎么格式化U盘为udf：https://github.com/JElchison/format-udf]
-    - ntfs
-    - squashfs
-    - vfat [默认]
-    - ext4 [默认]
-    - exfat [默认]
-
-2. USB2/3支持[未添加SMB自动挂载]
-3. 添加的工具
-    - nano
-    - curl
-    - htop
-    - screen
-    - vim-fuller
-    - lsblk
-    - wget
-4. 多主题
-    - argon
-    - argon-dark-mod
-    - argon-light-mod
-    - material
-    - netgear
-5. USB无线网卡需要自己手动添加驱动
-```
 
 
-- 完整的编译步骤：
-```
-# 编译环境Ubuntu19.04
-sudo apt-get install build-essential subversion git-core libncurses5-dev zlib1g-dev gawk flex quilt libssl-dev xsltproc libxml-parser-perl mercurial bzr ecj cvs unzip
 
-sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint
 
-git clone https://github.com/coolsnowwolf/lede
-echo "src-git lienol https://github.com/Lienol/openwrt-package" >> feeds.conf.default
-./scripts/feeds update -a
-./scripts/feeds install -a
-make defconfig
-make menuconfig
-make download V=s
-make V=99 # 或者 make -j1 V=s
-
-make -j$(($(nproc) + 1)) V=s
-make -j8 V=s
-make -j5 V=99 2>&1 |tee build.log |grep -i error
-```
-
-- 编译单个插件步骤：
-```
-./scripts/feeds update -a 
-cd package
-git clone https://github.com/maxlicheng/luci-app-unblockmusic.git
-cd ..
-./scripts/feeds install -a
-make menuconfig
-#在luci->application选中插件,编译
-make package/luci-app-unblockmusic/compile V=99
-```
-
-- 参考：
-  - lede(coolsnowwolf):https://github.com/coolsnowwolf/lede
-  - luci-app-unblockmusic(maxlicheng):https://github.com/maxlicheng/luci-app-unblockmusic
-  - https://mlapp.cn/374.html
-
-```
 LuCI - Applications 菜单即为 LuCI APP 集合，此菜单中的项目即为 LuCI 控制面板中各种各样的功能。
 
 以下是全部：注：应用后面标记 “ * ” 为最近新添加
