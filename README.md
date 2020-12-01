@@ -1,17 +1,15 @@
 ## 介绍：
 
-为NanoPi、OrangePi、Banana Pi、PINE64编译定制的OpenWRT固件
+为NanoPi、OrangePi、Banana Pi、PINE64编译定制的OpenWRT固件,但是不提供树莓派型号支持。
 
-
-- [测试](#测试)
 
 - [安装过程](#安装过程)
-使用说明
-提供Pi的型号有：
-添加的插件
-[本OpenWRT特性](explain/support.md)
-[大致编译过程](explain/compile.md)
-[编译时选择插件列表说明](explain/luciapp.md)
+- [使用说明](#使用说明)
+- [提供Pi的型号有：}(#提供Pi的型号有：)
+- [添加的插件](#添加的插件)
+- [本OpenWRT特性](explain/support.md)
+- [大致编译过程](explain/compile.md)
+- [编译时选择插件列表说明](explain/luciapp.md)
 
 ##### 已经编译的多版本固件（不提供树莓派支持）
 https://github.com/Wygdbb/OpenWRT-For-Pi/releases/tag/v0.4
