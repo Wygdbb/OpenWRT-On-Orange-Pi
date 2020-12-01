@@ -10,7 +10,7 @@
 - [本OpenWRT特性](explain/support.md)
 - [大致编译过程](explain/compile.md)
 - [编译时选择插件列表说明](explain/luciapp.md)
-- [发行时间](#发行时间)
+- [发行说明](#发行说明)
 
 ##### 已经编译的多版本固件（不提供树莓派支持）
 https://github.com/Wygdbb/OpenWRT-For-Pi/releases/tag/v0.4
@@ -100,7 +100,7 @@ Allwinner A20/A3x/R40
 |--带宽监控
 
 ```
-#### 发行时间
+#### 发行说明
 
 ```
  - 2020.12.01 目前提供多版本固件支持，之后不久会做一次全面的重新编译调整，可能会取消H2芯片固件的编译，需要的请去 多版本 中下载
