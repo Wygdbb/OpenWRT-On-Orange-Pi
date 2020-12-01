@@ -5,7 +5,7 @@
 
 - [安装过程](#安装过程)
 - [使用说明](#使用说明)
-- [提供Pi的型号有:](#支持的型号：)
+- [提供Pi的型号有:](#支持的型号：)  比之前提供更多的Pi型号支持
 - [添加的插件](#添加的插件)
 - [本OpenWRT特性](explain/support.md)
 - [大致编译过程](explain/compile.md)
@@ -43,28 +43,41 @@ Linux:   sudo dd bs=4M if=openwrt.xxx.img of=/dev/sdb
 ```
 
 #### 支持的型号：
+
+**相比之前提供编译的Pi型号增多**
 ```
 不提供树莓派支持！！！
 
 Allwinner A64
-[x] NanoPi NEO2
-[x] NanoPi NEO Plus2
-[x] Pine64 Plus
-[x] Pine64 Sopine baseboard
-[x] OrangePi PC2
-[x] OrangePi Zero Plus
+[x] Nanopi NEO Plus2 (H5)
+[x] Nanopi NEO2 (H5)
+[x] Pine64 Plus A64
+[x] Pine64 Sopine
+[x] Xunlong Orange Pi PC2
+[x] Xunlong Orange Pi Zero Plus
 
-Allwinner A20/A3x/R40
+Allwinner A20/A3x
+[x] OrangePi R1
+[x] OrangePi Plus
 [x] OrangePi ONE
 [x] OrangePi Zero
 [x] OrangePi PC
 [x] OrangePi PC Plus
-[x] BananaPi
-[x] BananaPi Pro
-[x] BananaPi-m2-ultra
-[x] bananaPi-m2-plus
-[x] NanoPi-neo
-[x] Cubieboard2
+[x[ OrangePi 2
+[x] Sinovoip Banana Pi M2 Plus
+[x] Olimex A20-Olinuxino Micro
+[x] Olimex A20-OLinuXino-LIME2-eMMC
+[x] Olimex A20-OLinuXino-LIME2
+[x] Olimex A20-OLinuXino-LIME
+[x] Mele M9 top set box
+[x] LinkSprite pcDuino3
+[x] LeMaker Banana Pro
+[x] LeMaker Banana Pi
+[x] Lamobo R1
+[x] FriendlyArm NanoPi M1 Plus
+[x] FriendlyARM NanoPi NEO
+[x] Cubietech Cubietruck
+[x] Cubietech Cubieboard2
 ```
 
 
