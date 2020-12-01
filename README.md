@@ -17,6 +17,8 @@
 
 最新固件地址；https://github.com/Wygdbb/OpenWRT-For-Pi/releases
 
+------
+
 #### 过时固件，建议下载烧录最新固件（最新固件基于Lienol）
 ```
 ##### 已经编译的多版本固件（不提供树莓派支持）
