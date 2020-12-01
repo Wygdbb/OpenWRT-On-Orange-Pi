@@ -30,10 +30,11 @@
     - lsblk
     - wget
 4. 多主题
-    - argon
     - argon-dark-mod
     - argon-light-mod
     - material
-    - netgear
+    - bootstrap-mod
+    - freifunk-generic
+    - bootstrap-blue
 5. USB无线网卡需要自己手动添加驱动
 ```
