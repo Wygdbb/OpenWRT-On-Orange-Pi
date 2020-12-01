@@ -2,6 +2,8 @@
 
 为NanoPi、OrangePi、Banana Pi、PINE64编译定制的OpenWRT固件,但是不提供树莓派型号支持。
 
+------
+
 **号外号外：最新固件增加qmi支持，可以做4g路由**
 
 - [安装过程](#安装过程)
