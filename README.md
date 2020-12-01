@@ -2,6 +2,7 @@
 
 为NanoPi、OrangePi、Banana Pi、PINE64编译定制的OpenWRT固件,但是不提供树莓派型号支持。
 
+**最新固件增加qmi支持，可以做4g路由**
 
 - [安装过程](#安装过程)
 - [使用说明](#使用说明)
@@ -83,34 +84,51 @@ Allwinner A20/A3x
 
 #### 添加的插件：
 
+**if 有不合理或者需要增加的插件，请issues**
 ```
+luci-app-adbyby-plus
+luci-app-adguardhome
+luci-app-advanced-reboot
+luci-app-ahcp
+luci-app-aria2
+luci-app-arpbind
+luci-app-attendedsysupgrade
+luci-app-autoreboot
+luci-app-baidupcs-web
+luci-app-ddns
+luci-app-diskman
+luci-app-dockerman[Docker-CE/ttyd]
+luci-app-firewall
+luci-app-filetransfer
+luci-app-frpc
+luci-app-hd-idle
+luci-app-https-dns-proxy
+luci-app-kodexplorer
+luci-app-mwan3
+luci-app-mwan3helper
+luci-app-nlbwmon
+luci-app-noddos
+luci-app-nps
+luci-app-ntpc
+luci-app-pagekitec
+*** luci-app-passwall[ss/ssr/xray/v2ray/Trojan_Plus/Trojan_GO/Brook/NaiveProxy/kcptun/haproxy/ChinaDNS-NGHttps DNS Proxy(DoH)/dns2socks
+luci-app-qbittorrent
+luci-app-ramfree
+luci-app-samba4
+luci-app-sfe
+luci-app-shairplay
+luci-app-smartdns
+luci-app-syncthing
+luci-app-transmission
+luci-app-ttyd
+luci-app-unblockmusic[go&nodejs]
+luci-app-usb-printer
+luci-app-verysync
+luci-app-vlmcsd
+luci-app-vsftpd
+luci-app-wrtbwmon
+luci-app-zerotier
 
-|--系统
-    |---TTYD终端
-    |---Web管理
-|--服务
-    |---广告屏蔽大师 Plus+
-    |---ShadowSocksR Plus+
-    |---上网时间控制
-    |---解锁网易云音乐[Go/Nodejs]
-    |---动态DNS[DDNS]
-    |---网络唤醒[Wol]
-    |---Shairplay
-    |---cpufreq
-    |---Upnp
-    |---Dnsforwarder
-    |---FRP内网穿透
-    |---网络共享[SMB4]
-    |---KMS服务器
-|--网络储存
-    |---USB打印服务器
-    |---硬盘休眠
-    |---FTP服务器
-|--VPN
-    |---ZeroTier
-|--网络
-    |---Turbo ACC网络加速
-|--带宽监控
 
 ```
 #### 发行说明
