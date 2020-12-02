@@ -15,7 +15,8 @@
 - [编译时选择插件列表说明](explain/luciapp.md)
 - [发行说明](#发行说明)
 
-最新固件地址；https://github.com/Wygdbb/OpenWRT-For-Pi/releases
+最新固件地址；链接: https://pan.baidu.com/s/1YYPdxhYb5yTijMG1LDxOeA 提取码: rn9n
+文件比较多，20多个设备固件，放release的话，心会痛。没有私人服务器，就放**百度网盘**了，方便没有梯子的朋友下载吧，具体如何快速下载百度网盘文件自行百度吧。（用百度打败百度）
 
 ------
 
