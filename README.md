@@ -49,7 +49,7 @@ Linux:   sudo dd bs=4M if=openwrt.xxx.img of=/dev/sdb
 3. 内存卡 > 512m 
 ```
 
-#### 支持的型号：待定
+#### 支持的型号：
 
 
 **相比之前提供编译的Pi型号增多**
