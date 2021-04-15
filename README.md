@@ -59,33 +59,39 @@ Linux:   sudo dd bs=4M if=openwrt.xxx.img of=/dev/sdb
 Allwinner A64
 [x] Nanopi NEO Plus2 (H5)
 [x] Nanopi NEO2 (H5)
-[x] Pine64 Plus A64
-[x] Pine64 Sopine
+[x] Olimex A64-Olinuxino
+[x] Olimex A64-Olinuxino eMMC
 [x] Xunlong Orange Pi PC2
 [x] Xunlong Orange Pi Zero Plus
+[x] Pine64 Pine64+
+[x] Pine64 SoPine
 
 Allwinner A20/A3x
-[x] OrangePi R1
-[x] OrangePi Plus
-[x] OrangePi ONE
-[x] OrangePi Zero
-[x] OrangePi PC
-[x] OrangePi PC Plus
-[x[ OrangePi 2
-[x] Sinovoip Banana Pi M2 Plus
-[x] Olimex A20-Olinuxino Micro
-[x] Olimex A20-OLinuXino-LIME2-eMMC
-[x] Olimex A20-OLinuXino-LIME2
-[x] Olimex A20-OLinuXino-LIME
-[x] Mele M9 top set box
-[x] LinkSprite pcDuino3
-[x] LeMaker Banana Pro
-[x] LeMaker Banana Pi
-[x] Lamobo R1
-[x] FriendlyArm NanoPi M1 Plus
-[x] FriendlyARM NanoPi NEO
-[x] Cubietech Cubietruck
 [x] Cubietech Cubieboard2
+[x] Cubietech Cubietruck
+[x] FriendlyARM NanoPi M1 Plus
+[x] FriendlyARM NanoPi NEO
+[x] FriendlyARM NanoPi NEO Air
+[x] FriendlyARM NanoPi R1
+[x] FriendlyARM ZeroPi
+[x] Lamobo Lamobo R1
+[x] LeMaker Banana Pi
+[x] LeMaker Banana Pro
+[x] LinkSprite pcDuino3
+[x] Mele M9
+[x] Olimex A20-OLinuXino-LIME
+[x] Olimex A20-OLinuXino-LIME2
+[x] Olimex A20-OLinuXino-LIME2 eMMC
+[x] Olimex A20-OLinuXino-MICRO
+[x] Sinovoip Banana Pi M2 Ultra
+[x] Sinovoip Banana Pi M2+
+[x] Xunlong Orange Pi 2
+[x] Xunlong Orange Pi One
+[x] Xunlong Orange Pi PC
+[x] Xunlong Orange Pi PC Plus
+[x] Xunlong Orange Pi Plus
+[x] Xunlong Orange Pi R1
+[x] Xunlong Orange Pi Zero
 ```
 
 
