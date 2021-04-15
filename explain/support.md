@@ -4,9 +4,8 @@
 ###### 全部固件均支持ipv6
 ```
 1.文件系统支持
-    - udf [macOS/Linux/Windows 都支持读写，DVD格式，怎么格式化U盘为udf：https://github.com/JElchison/format-udf]
+    - xfs
     - ntfs
-    - squashfs
     - vfat [默认]
     - ext4 [默认]
     - exfat [默认]
@@ -24,7 +23,6 @@
 3. 添加的工具
     - nano
     - curl
-    - htop
     - screen
     - vim-fuller
     - lsblk
