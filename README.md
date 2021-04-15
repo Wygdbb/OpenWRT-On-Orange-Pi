@@ -15,7 +15,7 @@
 - [编译时选择插件列表说明](explain/luciapp.md)
 - [发行说明](#发行说明)
 
-最新固件地址：待定
+最新固件地址：链接: https://pan.baidu.com/s/1YYPdxhYb5yTijMG1LDxOeA 提取码: rn9n
 
 
 ------
