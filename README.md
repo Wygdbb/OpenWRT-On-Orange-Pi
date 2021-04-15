@@ -1,6 +1,6 @@
 ## 介绍：
 
-为NanoPi、OrangePi、Banana Pi、PINE64编译定制的OpenWRT固件,但是不提供树莓派型号支持。
+为NanoPi、OrangePi、Banana Pi、PINE64等设备编译定制的OpenWRT固件,不提供树莓派型号支持。
 
 ------
 
@@ -8,39 +8,35 @@
 
 - [安装过程](#安装过程)
 - [使用说明](#使用说明)
-- [提供Pi的型号有:](#支持的型号：)  比之前提供更多的Pi型号支持
+- [支持的型号](#支持的型号)  比之前提供更多的Pi型号支持
 - [添加的插件](#添加的插件)  烧录之前请确认是否有自己需要的插件
-- [本OpenWRT特性](explain/support.md)  udf，macOS，Windows，Linux三平台兼容，全部支持iPv6
+- [本OpenWRT特性](explain/support.md)  支持XFS、qmi支持（4g路由）
 - [大致编译过程](explain/compile.md)
 - [编译时选择插件列表说明](explain/luciapp.md)
 - [发行说明](#发行说明)
 
-最新固件地址；链接: https://pan.baidu.com/s/1YYPdxhYb5yTijMG1LDxOeA 提取码: rn9n
+最新固件地址：待定
 
-文件比较多，20多个设备固件，放release的话，心会痛。没有私人服务器，就放**百度网盘**了，方便没有梯子的朋友下载吧，具体如何快速下载百度网盘文件自行百度吧。（用百度打败百度）
 
 ------
 
-#### 过时固件，建议下载烧录最新固件（最新固件基于Lienol）
+#### 过时固件，建议下载烧录最新固件
 ```
-##### 已经编译的多版本固件（不提供树莓派支持）
+4.##### 因passwall代理出现问题，定义该版本固件为过时
+链接: https://pan.baidu.com/s/1YYPdxhYb5yTijMG1LDxOeA 提取码: rn9n
+
+3.##### 已经编译的多版本固件（不提供树莓派支持）
 https://github.com/Wygdbb/OpenWRT-For-Pi/releases/tag/v0.4
 
-##### NanoPi NEO2 大乱交  ---> 真的很强
-https://github.com/Wygdbb/OpenWRT-For-Pi/releases/tag/v0.4.2
-
-##### 儿童节定制版NEO2轻NAS固件已经发布啦
+2.##### 儿童节定制版NEO2轻NAS固件已经发布啦
 https://github.com/Wygdbb/OpenWRT-For-Pi/releases/tag/v0.4.1
+
+1.##### NanoPi NEO2 大乱交  ---> 真的很强
+https://github.com/Wygdbb/OpenWRT-For-Pi/releases/tag/v0.4.2
 ```
-
-![nanopineo2](https://gitee.com/wygdbb/blog-image/raw/master/img/opgongneng.png)
-
-![NanoPi NEO2](https://images.gitee.com/uploads/images/2020/0328/215207_b2c5a598_6514114.png "OpenWRT.png")
-
 
 
 #### 安装过程：
-
 ```
 Windows: win32diskimager
 Linux:   sudo dd bs=4M if=openwrt.xxx.img of=/dev/sdb
@@ -53,7 +49,7 @@ Linux:   sudo dd bs=4M if=openwrt.xxx.img of=/dev/sdb
 3. 内存卡 > 512m 
 ```
 
-#### 支持的型号：
+#### 支持的型号：待定
 
 
 **相比之前提供编译的Pi型号增多**
@@ -119,10 +115,9 @@ luci-app-mwan3
 luci-app-mwan3helper
 luci-app-nlbwmon
 luci-app-noddos
-luci-app-nps
 luci-app-ntpc
 luci-app-pagekitec
-*** luci-app-passwall[ss/ssr/xray/v2ray/Trojan_Plus/Trojan_GO/Brook/NaiveProxy/kcptun/haproxy/ChinaDNS-NGHttps DNS Proxy(DoH)/dns2socks
+*** luci-app-openclash[ss/ssr/xray/v2ray/Trojan_Plus/Trojan_GO/Brook/NaiveProxy/kcptun/haproxy/ChinaDNS-NGHttps DNS Proxy(DoH)/dns2socks
 luci-app-ramfree
 luci-app-samba4
 luci-app-sfe
@@ -142,8 +137,9 @@ luci-app-zerotier
 
 #### 发行说明
 
+
 ```
+- 2021.04.15 因@liziru反馈passwall失效，又因passwall不再更新，重新编译固件，并定义2020.12.02固件为过时固件
 - 2020.12.02 固件已全部更新，具体支持看固件列表，并定义2020年12月之前编译的固件为“过时”，推荐使用最新编译的固件
 - 2020.12.01 目前提供多版本固件支持，之后不久会做一次全面的重新编译调整，可能会取消H2芯片固件的编译，需要的请去 多版本 中下载
-
 ```
